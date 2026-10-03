@@ -184,12 +184,7 @@ The checked-in reports record the following evidence; rerun the supplied scripts
 
 The report's two uncovered condition rows are in overflow/underflow guards and are mutually constrained by their enclosing `else` branches, not missing FIFO scenarios.
 
-## Limitations
 
-- This environment covers one synchronous configuration only: 16-bit width and depth 8.
-- It uses one active agent; it does not provide passive-agent, multi-clock, or asynchronous-FIFO modes.
-- `fifo_main_seq` is hard-coded in `fifo_test`; supplied code does not expose test selection or seed control through plusargs.
-- `run.do` adds signal-level waveforms. Sequence transaction blocks require the optional `+UVM_TR_RECORD` workflow above.
 
 ## Author
 
