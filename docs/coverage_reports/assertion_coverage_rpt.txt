@@ -1,0 +1,244 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/DUT/fifo_assert_inst
+=== Design Unit: work.fifo_assertions
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      18        18         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/fifo_assert_inst/assert__p_wr_rd_mid
+                     fifo_assertions.sv(48)             0          1
+/top/DUT/fifo_assert_inst/assert__p_wr_rd_full
+                     fifo_assertions.sv(47)             0          1
+/top/DUT/fifo_assert_inst/assert__p_wr_rd_empty
+                     fifo_assertions.sv(46)             0          1
+/top/DUT/fifo_assert_inst/assert__p_no_ack_when_full
+                     fifo_assertions.sv(45)             0          1
+/top/DUT/fifo_assert_inst/assert__p_rd_wrap
+                     fifo_assertions.sv(44)             0          1
+/top/DUT/fifo_assert_inst/assert__p_threshold
+                     fifo_assertions.sv(43)             0          1
+/top/DUT/fifo_assert_inst/assert__p_wr_wrap
+                     fifo_assertions.sv(42)             0          1
+/top/DUT/fifo_assert_inst/assert__p_almostempty
+                     fifo_assertions.sv(41)             0          1
+/top/DUT/fifo_assert_inst/assert__p_almostfull
+                     fifo_assertions.sv(40)             0          1
+/top/DUT/fifo_assert_inst/assert__p_full
+                     fifo_assertions.sv(39)             0          1
+/top/DUT/fifo_assert_inst/assert__p_empty
+                     fifo_assertions.sv(38)             0          1
+/top/DUT/fifo_assert_inst/assert__p_underflow
+                     fifo_assertions.sv(37)             0          1
+/top/DUT/fifo_assert_inst/assert__p_overflow
+                     fifo_assertions.sv(36)             0          1
+/top/DUT/fifo_assert_inst/assert__p_wr_ack
+                     fifo_assertions.sv(35)             0          1
+/top/DUT/fifo_assert_inst/a_reset_count
+                     fifo_assertions.sv(11)             0          1
+/top/DUT/fifo_assert_inst/a_reset_wr_ptr
+                     fifo_assertions.sv(12)             0          1
+/top/DUT/fifo_assert_inst/a_reset_rd_ptr
+                     fifo_assertions.sv(13)             0          1
+/top/DUT/fifo_assert_inst/a_reset_flags
+                     fifo_assertions.sv(14)             0          1
+
+Directive Coverage:
+    Directives                      13        13         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/fifo_assert_inst/cover__p_wr_rd_mid 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(63)
+                                                                               296 Covered   
+/top/DUT/fifo_assert_inst/cover__p_wr_rd_full 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(62)
+                                                                               101 Covered   
+/top/DUT/fifo_assert_inst/cover__p_wr_rd_empty 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(61)
+                                                                                37 Covered   
+/top/DUT/fifo_assert_inst/cover__p_no_ack_when_full 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(60)
+                                                                               351 Covered   
+/top/DUT/fifo_assert_inst/cover__p_rd_wrap 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(59)
+                                                                                37 Covered   
+/top/DUT/fifo_assert_inst/cover__p_wr_wrap 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(58)
+                                                                                86 Covered   
+/top/DUT/fifo_assert_inst/cover__p_almostempty 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(57)
+                                                                               234 Covered   
+/top/DUT/fifo_assert_inst/cover__p_almostfull 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(56)
+                                                                               326 Covered   
+/top/DUT/fifo_assert_inst/cover__p_full  fifo_assertions Verilog  SVA  fifo_assertions.sv(55)
+                                                                               514 Covered   
+/top/DUT/fifo_assert_inst/cover__p_empty fifo_assertions Verilog  SVA  fifo_assertions.sv(54)
+                                                                               170 Covered   
+/top/DUT/fifo_assert_inst/cover__p_underflow 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(53)
+                                                                                59 Covered   
+/top/DUT/fifo_assert_inst/cover__p_overflow 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(52)
+                                                                               351 Covered   
+/top/DUT/fifo_assert_inst/cover__p_wr_ack 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(51)
+                                                                              1008 Covered   
+
+=================================================================================
+=== Instance: /fifo_write_read_seq_pkg
+=== Design Unit: work.fifo_write_read_seq_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       2         2         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/fifo_write_read_seq_pkg/fifo_write_read_seq/body/#ublk#164226423#15/immed__19
+                     fifo_write_read_seq.sv(19)
+                                                        0          1
+/fifo_write_read_seq_pkg/fifo_write_read_seq/body/#ublk#164226423#24/immed__27
+                     fifo_write_read_seq.sv(27)
+                                                        0          1
+
+=================================================================================
+=== Instance: /fifo_read_only_seq_pkg
+=== Design Unit: work.fifo_read_only_seq_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/fifo_read_only_seq_pkg/fifo_read_only_seq/body/#ublk#143532583#15/immed__18
+                     fifo_read_only_seq.sv(18)          0          1
+
+=================================================================================
+=== Instance: /fifo_write_only_seq_pkg
+=== Design Unit: work.fifo_write_only_seq_pkg
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/fifo_write_only_seq_pkg/fifo_write_only_seq/body/#ublk#220570231#15/immed__18
+                     fifo_write_only_seq.sv(18)
+                                                        0          1
+
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/fifo_assert_inst/cover__p_wr_rd_mid 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(63)
+                                                                               296 Covered   
+/top/DUT/fifo_assert_inst/cover__p_wr_rd_full 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(62)
+                                                                               101 Covered   
+/top/DUT/fifo_assert_inst/cover__p_wr_rd_empty 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(61)
+                                                                                37 Covered   
+/top/DUT/fifo_assert_inst/cover__p_no_ack_when_full 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(60)
+                                                                               351 Covered   
+/top/DUT/fifo_assert_inst/cover__p_rd_wrap 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(59)
+                                                                                37 Covered   
+/top/DUT/fifo_assert_inst/cover__p_wr_wrap 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(58)
+                                                                                86 Covered   
+/top/DUT/fifo_assert_inst/cover__p_almostempty 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(57)
+                                                                               234 Covered   
+/top/DUT/fifo_assert_inst/cover__p_almostfull 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(56)
+                                                                               326 Covered   
+/top/DUT/fifo_assert_inst/cover__p_full  fifo_assertions Verilog  SVA  fifo_assertions.sv(55)
+                                                                               514 Covered   
+/top/DUT/fifo_assert_inst/cover__p_empty fifo_assertions Verilog  SVA  fifo_assertions.sv(54)
+                                                                               170 Covered   
+/top/DUT/fifo_assert_inst/cover__p_underflow 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(53)
+                                                                                59 Covered   
+/top/DUT/fifo_assert_inst/cover__p_overflow 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(52)
+                                                                               351 Covered   
+/top/DUT/fifo_assert_inst/cover__p_wr_ack 
+                                         fifo_assertions Verilog  SVA  fifo_assertions.sv(51)
+                                                                              1008 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 13
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/fifo_assert_inst/assert__p_wr_rd_mid
+                     fifo_assertions.sv(48)             0          1
+/top/DUT/fifo_assert_inst/assert__p_wr_rd_full
+                     fifo_assertions.sv(47)             0          1
+/top/DUT/fifo_assert_inst/assert__p_wr_rd_empty
+                     fifo_assertions.sv(46)             0          1
+/top/DUT/fifo_assert_inst/assert__p_no_ack_when_full
+                     fifo_assertions.sv(45)             0          1
+/top/DUT/fifo_assert_inst/assert__p_rd_wrap
+                     fifo_assertions.sv(44)             0          1
+/top/DUT/fifo_assert_inst/assert__p_threshold
+                     fifo_assertions.sv(43)             0          1
+/top/DUT/fifo_assert_inst/assert__p_wr_wrap
+                     fifo_assertions.sv(42)             0          1
+/top/DUT/fifo_assert_inst/assert__p_almostempty
+                     fifo_assertions.sv(41)             0          1
+/top/DUT/fifo_assert_inst/assert__p_almostfull
+                     fifo_assertions.sv(40)             0          1
+/top/DUT/fifo_assert_inst/assert__p_full
+                     fifo_assertions.sv(39)             0          1
+/top/DUT/fifo_assert_inst/assert__p_empty
+                     fifo_assertions.sv(38)             0          1
+/top/DUT/fifo_assert_inst/assert__p_underflow
+                     fifo_assertions.sv(37)             0          1
+/top/DUT/fifo_assert_inst/assert__p_overflow
+                     fifo_assertions.sv(36)             0          1
+/top/DUT/fifo_assert_inst/assert__p_wr_ack
+                     fifo_assertions.sv(35)             0          1
+/top/DUT/fifo_assert_inst/a_reset_count
+                     fifo_assertions.sv(11)             0          1
+/top/DUT/fifo_assert_inst/a_reset_wr_ptr
+                     fifo_assertions.sv(12)             0          1
+/top/DUT/fifo_assert_inst/a_reset_rd_ptr
+                     fifo_assertions.sv(13)             0          1
+/top/DUT/fifo_assert_inst/a_reset_flags
+                     fifo_assertions.sv(14)             0          1
+/fifo_write_read_seq_pkg/fifo_write_read_seq/body/#ublk#164226423#15/immed__19
+                     fifo_write_read_seq.sv(19)
+                                                        0          1
+/fifo_write_read_seq_pkg/fifo_write_read_seq/body/#ublk#164226423#24/immed__27
+                     fifo_write_read_seq.sv(27)
+                                                        0          1
+/fifo_read_only_seq_pkg/fifo_read_only_seq/body/#ublk#143532583#15/immed__18
+                     fifo_read_only_seq.sv(18)          0          1
+/fifo_write_only_seq_pkg/fifo_write_only_seq/body/#ublk#220570231#15/immed__18
+                     fifo_write_only_seq.sv(18)
+                                                        0          1
+
+Total Coverage By Instance (filtered view): 100.00%
+

@@ -1,0 +1,16 @@
+# QuestaSim / ModelSim generated files
+work/
+transcript
+vsim.wlf
+*.wlf
+modelsim.ini
+*.ucdb
+covhtmlreport/
+qrun.out/
+# reports written by save_cov.do into code/ (copy the final ones to docs/coverage_reports/)
+code/*_rpt.txt
+code/code_summary.txt
+# OS / editor
+.DS_Store
+Thumbs.db
+~$*
